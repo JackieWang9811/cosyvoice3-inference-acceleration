@@ -42,9 +42,10 @@ cosyvoice3-inference-acceleration/
 │   ├── extract_embedding.py         # 说话人嵌入提取
 │   ├── extract_speech_token.py      # 语音 Token 提取
 │   └── make_parquet_list.py         # 数据列表生成
-└── examples/                   # 使用示例
-    ├── example.py              # CosyVoice 推理示例
-    └── vllm_example.py         # vLLM 推理示例
+├── examples/                   # 使用示例
+│   ├── example.py              # CosyVoice 推理示例
+│   └── vllm_example.py         # vLLM 推理示例
+└── webui.py                    # Gradio 可视化推理界面
 ```
 
 ## 加速方案
@@ -100,6 +101,15 @@ from cosyvoice.cli.cosyvoice import CosyVoice
 model = CosyVoice('pretrained_models/CosyVoice-3')
 # ... 进行推理
 ```
+
+### Web UI 演示
+
+```bash
+# 启动 Gradio 可视化界面
+python webui.py --port 8000 --model_dir pretrained_models/CosyVoice2-0.5B
+```
+
+启动后浏览器打开 `http://localhost:8000` 即可体验 TTS 推理和加速对比功能。
 
 ## 评估指标
 
