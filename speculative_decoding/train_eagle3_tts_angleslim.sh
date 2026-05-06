@@ -1,0 +1,1 @@
+bash /home/b24zll/data/wjq_data/CosyVoice/AngelSlim/scripts/speculative/train_eagle3_tts_online.sh

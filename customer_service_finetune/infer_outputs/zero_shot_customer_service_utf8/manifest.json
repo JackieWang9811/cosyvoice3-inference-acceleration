@@ -1,0 +1,182 @@
+[
+  {
+    "checkpoint": "baseline",
+    "prompt": "example_prompt",
+    "scenario": "greeting_long",
+    "target_text": "您好，欢迎致电智能客服中心。为了更快帮您处理问题，请您简单描述一下遇到的情况，比如订单查询、退款进度、售后维修，或者需要转接人工客服。",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/baseline_example_prompt_01_greeting_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 14.72
+  },
+  {
+    "checkpoint": "baseline",
+    "prompt": "example_prompt",
+    "scenario": "order_long",
+    "target_text": "请您稍等，我正在为您查询订单信息。系统显示您的订单已经完成支付，目前正在仓库打包，预计今天下午发出，物流单号生成后会通过短信通知您。",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/baseline_example_prompt_02_order_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 13.28
+  },
+  {
+    "checkpoint": "baseline",
+    "prompt": "example_prompt",
+    "scenario": "apology_long",
+    "target_text": "非常抱歉给您带来不便。我们已经记录了您的问题，并会优先为您核实处理。如果后续需要补充材料，客服专员会通过电话或者短信与您联系。",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/baseline_example_prompt_03_apology_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 12.08
+  },
+  {
+    "checkpoint": "baseline",
+    "prompt": "customer_service_prompt",
+    "scenario": "greeting_long",
+    "target_text": "您好，欢迎致电智能客服中心。为了更快帮您处理问题，请您简单描述一下遇到的情况，比如订单查询、退款进度、售后维修，或者需要转接人工客服。",
+    "prompt_text": "请用专业、温和、清晰、耐心的中文客服语气说这句话，语速适中，吐字清楚。<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/baseline_customer_service_prompt_01_greeting_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 13.88
+  },
+  {
+    "checkpoint": "baseline",
+    "prompt": "customer_service_prompt",
+    "scenario": "order_long",
+    "target_text": "请您稍等，我正在为您查询订单信息。系统显示您的订单已经完成支付，目前正在仓库打包，预计今天下午发出，物流单号生成后会通过短信通知您。",
+    "prompt_text": "请用专业、温和、清晰、耐心的中文客服语气说这句话，语速适中，吐字清楚。<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/baseline_customer_service_prompt_02_order_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 12.28
+  },
+  {
+    "checkpoint": "baseline",
+    "prompt": "customer_service_prompt",
+    "scenario": "apology_long",
+    "target_text": "非常抱歉给您带来不便。我们已经记录了您的问题，并会优先为您核实处理。如果后续需要补充材料，客服专员会通过电话或者短信与您联系。",
+    "prompt_text": "请用专业、温和、清晰、耐心的中文客服语气说这句话，语速适中，吐字清楚。<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/baseline_customer_service_prompt_03_apology_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 11.44
+  },
+  {
+    "checkpoint": "epoch2",
+    "prompt": "example_prompt",
+    "scenario": "greeting_long",
+    "target_text": "您好，欢迎致电智能客服中心。为了更快帮您处理问题，请您简单描述一下遇到的情况，比如订单查询、退款进度、售后维修，或者需要转接人工客服。",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch2_example_prompt_01_greeting_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 12.0
+  },
+  {
+    "checkpoint": "epoch2",
+    "prompt": "example_prompt",
+    "scenario": "order_long",
+    "target_text": "请您稍等，我正在为您查询订单信息。系统显示您的订单已经完成支付，目前正在仓库打包，预计今天下午发出，物流单号生成后会通过短信通知您。",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch2_example_prompt_02_order_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 12.88
+  },
+  {
+    "checkpoint": "epoch2",
+    "prompt": "example_prompt",
+    "scenario": "apology_long",
+    "target_text": "非常抱歉给您带来不便。我们已经记录了您的问题，并会优先为您核实处理。如果后续需要补充材料，客服专员会通过电话或者短信与您联系。",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch2_example_prompt_03_apology_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 11.16
+  },
+  {
+    "checkpoint": "epoch2",
+    "prompt": "customer_service_prompt",
+    "scenario": "greeting_long",
+    "target_text": "您好，欢迎致电智能客服中心。为了更快帮您处理问题，请您简单描述一下遇到的情况，比如订单查询、退款进度、售后维修，或者需要转接人工客服。",
+    "prompt_text": "请用专业、温和、清晰、耐心的中文客服语气说这句话，语速适中，吐字清楚。<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch2_customer_service_prompt_01_greeting_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 11.92
+  },
+  {
+    "checkpoint": "epoch2",
+    "prompt": "customer_service_prompt",
+    "scenario": "order_long",
+    "target_text": "请您稍等，我正在为您查询订单信息。系统显示您的订单已经完成支付，目前正在仓库打包，预计今天下午发出，物流单号生成后会通过短信通知您。",
+    "prompt_text": "请用专业、温和、清晰、耐心的中文客服语气说这句话，语速适中，吐字清楚。<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch2_customer_service_prompt_02_order_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 11.6
+  },
+  {
+    "checkpoint": "epoch2",
+    "prompt": "customer_service_prompt",
+    "scenario": "apology_long",
+    "target_text": "非常抱歉给您带来不便。我们已经记录了您的问题，并会优先为您核实处理。如果后续需要补充材料，客服专员会通过电话或者短信与您联系。",
+    "prompt_text": "请用专业、温和、清晰、耐心的中文客服语气说这句话，语速适中，吐字清楚。<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch2_customer_service_prompt_03_apology_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 10.72
+  },
+  {
+    "checkpoint": "epoch19",
+    "prompt": "example_prompt",
+    "scenario": "greeting_long",
+    "target_text": "您好，欢迎致电智能客服中心。为了更快帮您处理问题，请您简单描述一下遇到的情况，比如订单查询、退款进度、售后维修，或者需要转接人工客服。",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch19_example_prompt_01_greeting_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 13.08
+  },
+  {
+    "checkpoint": "epoch19",
+    "prompt": "example_prompt",
+    "scenario": "order_long",
+    "target_text": "请您稍等，我正在为您查询订单信息。系统显示您的订单已经完成支付，目前正在仓库打包，预计今天下午发出，物流单号生成后会通过短信通知您。",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch19_example_prompt_02_order_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 12.36
+  },
+  {
+    "checkpoint": "epoch19",
+    "prompt": "example_prompt",
+    "scenario": "apology_long",
+    "target_text": "非常抱歉给您带来不便。我们已经记录了您的问题，并会优先为您核实处理。如果后续需要补充材料，客服专员会通过电话或者短信与您联系。",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch19_example_prompt_03_apology_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 10.76
+  },
+  {
+    "checkpoint": "epoch19",
+    "prompt": "customer_service_prompt",
+    "scenario": "greeting_long",
+    "target_text": "您好，欢迎致电智能客服中心。为了更快帮您处理问题，请您简单描述一下遇到的情况，比如订单查询、退款进度、售后维修，或者需要转接人工客服。",
+    "prompt_text": "请用专业、温和、清晰、耐心的中文客服语气说这句话，语速适中，吐字清楚。<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch19_customer_service_prompt_01_greeting_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 12.6
+  },
+  {
+    "checkpoint": "epoch19",
+    "prompt": "customer_service_prompt",
+    "scenario": "order_long",
+    "target_text": "请您稍等，我正在为您查询订单信息。系统显示您的订单已经完成支付，目前正在仓库打包，预计今天下午发出，物流单号生成后会通过短信通知您。",
+    "prompt_text": "请用专业、温和、清晰、耐心的中文客服语气说这句话，语速适中，吐字清楚。<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch19_customer_service_prompt_02_order_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 11.96
+  },
+  {
+    "checkpoint": "epoch19",
+    "prompt": "customer_service_prompt",
+    "scenario": "apology_long",
+    "target_text": "非常抱歉给您带来不便。我们已经记录了您的问题，并会优先为您核实处理。如果后续需要补充材料，客服专员会通过电话或者短信与您联系。",
+    "prompt_text": "请用专业、温和、清晰、耐心的中文客服语气说这句话，语速适中，吐字清楚。<|endofprompt|>希望你以后能够做得比我还好呦。",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/zero_shot_customer_service_utf8/epoch19_customer_service_prompt_03_apology_long_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 10.8
+  }
+]

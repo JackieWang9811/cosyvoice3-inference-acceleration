@@ -1,0 +1,48 @@
+{
+  "config": {
+    "host": "127.0.0.1",
+    "port": 50000,
+    "prompt_text": "You are a helpful assistant. <|endofprompt|>希望你以后能够做的比我还好呦。",
+    "prompt_wav": "/home/b24zll/data/wjq_data/CosyVoice/asset/zero_shot_prompt.wav",
+    "tts_text": "收到好友从远方寄来的生日礼物，那份意外的惊喜与深深的祝福让我心中充满了甜蜜的快乐，笑容如花儿般绽放。",
+    "spk_id": "bench_spk",
+    "concurrency": 1,
+    "num_requests": 2,
+    "timeout": 600,
+    "out_json": "l20_c1_awq.json"
+  },
+  "summary": {
+    "total_requests": 2,
+    "success": 2,
+    "failed": 0,
+    "success_rate": 1.0,
+    "elapsed_mean": 2.707385040994268,
+    "elapsed_p50": 2.707385040994268,
+    "elapsed_p95": 3.0434997159754857,
+    "elapsed_p99": 3.0733765759738163,
+    "ttft_mean": 1.3836265110003296,
+    "ttft_p50": 1.3836265110003296,
+    "ttft_p95": 1.430950818580459,
+    "bytes_mean": 548160,
+    "wall_clock_sec": 5.416360650997376,
+    "throughput_req_per_sec": 0.3692516301756452
+  },
+  "results": [
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 3.080845790973399,
+      "ttft_sec": 1.436209074978251,
+      "bytes": 549120,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 2.333924291015137,
+      "ttft_sec": 1.3310439470224082,
+      "bytes": 547200,
+      "error": null
+    }
+  ]
+}

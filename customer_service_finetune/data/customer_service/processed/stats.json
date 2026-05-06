@@ -1,0 +1,9 @@
+{
+  "total": 179,
+  "train": 164,
+  "dev": 15,
+  "train_dir": "customer_service_finetune/data/customer_service/processed/train",
+  "dev_dir": "customer_service_finetune/data/customer_service/processed/dev",
+  "warnings": [],
+  "warning_count": 0
+}

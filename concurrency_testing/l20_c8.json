@@ -1,0 +1,352 @@
+{
+  "config": {
+    "host": "127.0.0.1",
+    "port": 50000,
+    "prompt_text": "You are a helpful assistant. <|endofprompt|>希望你以后能够做的比我还好呦。",
+    "prompt_wav": "/home/b24zll/data/wjq_data/CosyVoice/asset/zero_shot_prompt.wav",
+    "tts_text": "收到好友从远方寄来的生日礼物，那份意外的惊喜与深深的祝福让我心中充满了甜蜜的快乐，笑容如花儿般绽放。",
+    "spk_id": "bench_spk",
+    "concurrency": 8,
+    "num_requests": 40,
+    "timeout": 600,
+    "out_json": "l20_c8.json"
+  },
+  "summary": {
+    "total_requests": 40,
+    "success": 40,
+    "failed": 0,
+    "success_rate": 1.0,
+    "elapsed_mean": 26.46429938462534,
+    "elapsed_p50": 26.063571674516425,
+    "elapsed_p95": 30.258095985902763,
+    "elapsed_p99": 31.85407470979786,
+    "ttft_mean": 9.956710678469245,
+    "ttft_p50": 9.508577389497077,
+    "ttft_p95": 14.149404644296737,
+    "bytes_mean": 614592,
+    "wall_clock_sec": 133.78789136302657,
+    "throughput_req_per_sec": 0.2989807193497209
+  },
+  "results": [
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 24.24148444799357,
+      "ttft_sec": 9.598941719013965,
+      "bytes": 600960,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 24.34582075299113,
+      "ttft_sec": 10.280425159988226,
+      "bytes": 600960,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 24.53031261099386,
+      "ttft_sec": 9.926553931989474,
+      "bytes": 604800,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 25.056232970004203,
+      "ttft_sec": 10.897648985992419,
+      "bytes": 566400,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 27.42648898801417,
+      "ttft_sec": 9.947827981988667,
+      "bytes": 606720,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 27.535046225995757,
+      "ttft_sec": 10.190413436997915,
+      "bytes": 614400,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 28.051646574982442,
+      "ttft_sec": 10.609283466998022,
+      "bytes": 687360,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 32.530477917025564,
+      "ttft_sec": 10.318447351019131,
+      "bytes": 806400,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 28.86066659199423,
+      "ttft_sec": 7.553687823994551,
+      "bytes": 787200,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 29.72761675500078,
+      "ttft_sec": 7.610346608009422,
+      "bytes": 641280,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 29.965953940991312,
+      "ttft_sec": 7.826323161978507,
+      "bytes": 645120,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 26.62925246701343,
+      "ttft_sec": 12.041601603006711,
+      "bytes": 552960,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 27.19121486801305,
+      "ttft_sec": 12.574923559994204,
+      "bytes": 587520,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 29.943345968000358,
+      "ttft_sec": 8.434887130977586,
+      "bytes": 608640,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 23.562552360002883,
+      "ttft_sec": 16.251984712987905,
+      "bytes": 591360,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 28.79653253298602,
+      "ttft_sec": 12.68001428199932,
+      "bytes": 666240,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 23.35359177098144,
+      "ttft_sec": 6.705853400984779,
+      "bytes": 539520,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 24.18540650801151,
+      "ttft_sec": 8.237830800004303,
+      "bytes": 554880,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 24.278737854998326,
+      "ttft_sec": 7.9169818309892435,
+      "bytes": 585600,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 28.652633422985673,
+      "ttft_sec": 7.441749850986525,
+      "bytes": 612480,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 29.082418198988307,
+      "ttft_sec": 7.555250431993045,
+      "bytes": 650880,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 29.450319729017792,
+      "ttft_sec": 8.39030777500011,
+      "bytes": 656640,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 30.229779421002604,
+      "ttft_sec": 12.65303950899397,
+      "bytes": 612480,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 30.79611071900581,
+      "ttft_sec": 13.177299292001408,
+      "bytes": 610560,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 27.600164184026653,
+      "ttft_sec": 8.619792353012599,
+      "bytes": 608640,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 23.783409727999242,
+      "ttft_sec": 8.788012306991732,
+      "bytes": 595200,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 27.578829030011548,
+      "ttft_sec": 7.854065041989088,
+      "bytes": 608640,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 23.89290901098866,
+      "ttft_sec": 9.41821305998019,
+      "bytes": 581760,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 28.82512470698566,
+      "ttft_sec": 8.611091290978948,
+      "bytes": 673920,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 23.999343041999964,
+      "ttft_sec": 10.64792381299776,
+      "bytes": 551040,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 23.26718403599807,
+      "ttft_sec": 14.127426560997264,
+      "bytes": 570240,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 22.710619869991206,
+      "ttft_sec": 13.911835366976447,
+      "bytes": 552960,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 23.57258664802066,
+      "ttft_sec": 7.606893977994332,
+      "bytes": 547200,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 23.802944247989217,
+      "ttft_sec": 8.22480081798858,
+      "bytes": 549120,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 24.292649612994865,
+      "ttft_sec": 8.616100179991918,
+      "bytes": 576000,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 27.739936962985666,
+      "ttft_sec": 6.813101429987,
+      "bytes": 616320,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 25.49789088201942,
+      "ttft_sec": 7.530100907024462,
+      "bytes": 637440,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 25.3704296569922,
+      "ttft_sec": 10.61773391297902,
+      "bytes": 650880,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 24.164754419005476,
+      "ttft_sec": 13.492724084004294,
+      "bytes": 614400,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 24.049555750010768,
+      "ttft_sec": 14.566988226986723,
+      "bytes": 658560,
+      "error": null
+    }
+  ]
+}

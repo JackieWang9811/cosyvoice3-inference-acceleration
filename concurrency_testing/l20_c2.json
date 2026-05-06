@@ -1,0 +1,112 @@
+{
+  "config": {
+    "host": "127.0.0.1",
+    "port": 50000,
+    "prompt_text": "You are a helpful assistant. <|endofprompt|>希望你以后能够做的比我还好呦。",
+    "prompt_wav": "/home/b24zll/data/wjq_data/CosyVoice/asset/zero_shot_prompt.wav",
+    "tts_text": "收到好友从远方寄来的生日礼物，那份意外的惊喜与深深的祝福让我心中充满了甜蜜的快乐，笑容如花儿般绽放。",
+    "spk_id": "bench_spk",
+    "concurrency": 2,
+    "num_requests": 10,
+    "timeout": 600,
+    "out_json": "l20_c2.json"
+  },
+  "summary": {
+    "total_requests": 10,
+    "success": 10,
+    "failed": 0,
+    "success_rate": 1.0,
+    "elapsed_mean": 4.364912366302451,
+    "elapsed_p50": 4.384655637011747,
+    "elapsed_p95": 4.959814440745685,
+    "elapsed_p99": 5.016104726550693,
+    "ttft_mean": 1.984297916397918,
+    "ttft_p50": 2.0204793620068813,
+    "ttft_p95": 2.2759149092511506,
+    "bytes_mean": 607296,
+    "wall_clock_sec": 22.063308411015896,
+    "throughput_req_per_sec": 0.4532411827687248
+  },
+  "results": [
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 3.805885259003844,
+      "ttft_sec": 1.9517814730061218,
+      "bytes": 574080,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 4.512295318010729,
+      "ttft_sec": 1.9966867270122748,
+      "bytes": 631680,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 3.808321844000602,
+      "ttft_sec": 1.6436478569812607,
+      "bytes": 560640,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 4.257015956012765,
+      "ttft_sec": 2.0442719970014878,
+      "bytes": 606720,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 4.070587460999377,
+      "ttft_sec": 1.795714596984908,
+      "bytes": 585600,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 4.77102778700646,
+      "ttft_sec": 2.261648076993879,
+      "bytes": 643200,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 5.030177298001945,
+      "ttft_sec": 2.0493192500143778,
+      "bytes": 622080,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 3.785507669002982,
+      "ttft_sec": 2.2875877720071003,
+      "bytes": 581760,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 4.8738153929880355,
+      "ttft_sec": 1.6533937199856155,
+      "bytes": 618240,
+      "error": null
+    },
+    {
+      "ok": true,
+      "status_code": 200,
+      "elapsed_sec": 4.734489677997772,
+      "ttft_sec": 2.1589276939921547,
+      "bytes": 648960,
+      "error": null
+    }
+  ]
+}

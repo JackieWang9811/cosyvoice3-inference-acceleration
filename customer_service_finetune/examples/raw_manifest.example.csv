@@ -1,0 +1,5 @@
+audio_path,text,speaker_id,scenario,emotion,language,split
+wavs/001.wav,您好，请问有什么可以帮您？,cs_001,greeting,polite,zh,train
+wavs/002.wav,请您稍等，我正在为您查询订单信息。,cs_001,order_query,polite,zh,train
+wavs/003.wav,非常抱歉给您带来不便，我们会尽快为您处理。,cs_001,apology,polite,zh,dev
+wavs/004.wav,我将为您转接人工客服，请保持电话畅通。,cs_001,handoff,polite,zh,train

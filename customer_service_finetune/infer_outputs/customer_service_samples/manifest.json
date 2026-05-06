@@ -1,0 +1,202 @@
+[
+  {
+    "checkpoint": "baseline",
+    "scenario": "greeting",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/baseline_01_greeting_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.72
+  },
+  {
+    "checkpoint": "baseline",
+    "scenario": "order_query",
+    "text": "???????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/baseline_02_order_query_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.6
+  },
+  {
+    "checkpoint": "baseline",
+    "scenario": "refund",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/baseline_03_refund_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.6
+  },
+  {
+    "checkpoint": "baseline",
+    "scenario": "apology",
+    "text": "?????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/baseline_04_apology_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.76
+  },
+  {
+    "checkpoint": "baseline",
+    "scenario": "handoff",
+    "text": "????????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/baseline_05_handoff_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.12
+  },
+  {
+    "checkpoint": "epoch0",
+    "scenario": "greeting",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch0_01_greeting_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.28
+  },
+  {
+    "checkpoint": "epoch0",
+    "scenario": "order_query",
+    "text": "???????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch0_02_order_query_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.24
+  },
+  {
+    "checkpoint": "epoch0",
+    "scenario": "refund",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch0_03_refund_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.28
+  },
+  {
+    "checkpoint": "epoch0",
+    "scenario": "apology",
+    "text": "?????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch0_04_apology_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.32
+  },
+  {
+    "checkpoint": "epoch0",
+    "scenario": "handoff",
+    "text": "????????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch0_05_handoff_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.28
+  },
+  {
+    "checkpoint": "epoch2",
+    "scenario": "greeting",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch2_01_greeting_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.56
+  },
+  {
+    "checkpoint": "epoch2",
+    "scenario": "order_query",
+    "text": "???????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch2_02_order_query_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.16
+  },
+  {
+    "checkpoint": "epoch2",
+    "scenario": "refund",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch2_03_refund_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.2
+  },
+  {
+    "checkpoint": "epoch2",
+    "scenario": "apology",
+    "text": "?????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch2_04_apology_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.24
+  },
+  {
+    "checkpoint": "epoch2",
+    "scenario": "handoff",
+    "text": "????????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch2_05_handoff_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.84
+  },
+  {
+    "checkpoint": "epoch10",
+    "scenario": "greeting",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch10_01_greeting_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.28
+  },
+  {
+    "checkpoint": "epoch10",
+    "scenario": "order_query",
+    "text": "???????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch10_02_order_query_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.84
+  },
+  {
+    "checkpoint": "epoch10",
+    "scenario": "refund",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch10_03_refund_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.16
+  },
+  {
+    "checkpoint": "epoch10",
+    "scenario": "apology",
+    "text": "?????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch10_04_apology_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.28
+  },
+  {
+    "checkpoint": "epoch10",
+    "scenario": "handoff",
+    "text": "????????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch10_05_handoff_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.28
+  },
+  {
+    "checkpoint": "epoch19",
+    "scenario": "greeting",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch19_01_greeting_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.44
+  },
+  {
+    "checkpoint": "epoch19",
+    "scenario": "order_query",
+    "text": "???????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch19_02_order_query_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 0.32
+  },
+  {
+    "checkpoint": "epoch19",
+    "scenario": "refund",
+    "text": "??????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch19_03_refund_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.2
+  },
+  {
+    "checkpoint": "epoch19",
+    "scenario": "apology",
+    "text": "?????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch19_04_apology_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.16
+  },
+  {
+    "checkpoint": "epoch19",
+    "scenario": "handoff",
+    "text": "????????????????????????????????",
+    "path": "/home/b24zll/data/wjq_data/CosyVoice/customer_service_finetune/infer_outputs/customer_service_samples/epoch19_05_handoff_0.wav",
+    "sample_rate": 24000,
+    "duration_seconds": 1.44
+  }
+]

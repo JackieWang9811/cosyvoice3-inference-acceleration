@@ -1,0 +1,2 @@
+export COSYVOICE_ROOT=/home/b24zll/data/wjq_data/CosyVoice
+CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7 python server_bench.py   --model_dir /home/b24zll/data/wjq_data/CosyVoice/pretrained_models/Fun-CosyVoice3-0.5B  --load_vllm

@@ -1,0 +1,4 @@
+{
+  "method": "wanda_pruning",
+  "note": "Dense-format HF backbone with many zero weights; not AWQ format."
+}

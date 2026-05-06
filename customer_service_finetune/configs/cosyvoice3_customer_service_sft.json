@@ -1,0 +1,59 @@
+{
+  "experiment": {
+    "name": "customer_service_cosyvoice3_lora",
+    "output_dir": "customer_service_finetune/exp/cosyvoice3/llm/torch_ddp",
+    "tensorboard_dir": "customer_service_finetune/tensorboard/cosyvoice3/llm/torch_ddp",
+    "seed": 2026
+  },
+  "model": {
+    "base_model": "pretrained_models/Fun-CosyVoice3-0.5B",
+    "model_family": "cosyvoice3",
+    "train_model": "llm",
+    "checkpoint": "pretrained_models/Fun-CosyVoice3-0.5B/llm.pt",
+    "qwen_pretrain_path": "pretrained_models/Fun-CosyVoice3-0.5B/CosyVoice-BlankEN",
+    "onnx_path": "pretrained_models/Fun-CosyVoice3-0.5B",
+    "hyperpyyaml": "customer_service_finetune/configs/cosyvoice3_customer_service.yaml"
+  },
+  "data": {
+    "train_manifest": "customer_service_finetune/data/customer_service/train.data.list",
+    "dev_manifest": "customer_service_finetune/data/customer_service/dev.data.list",
+    "sample_rate": 24000,
+    "max_audio_seconds": 20.0,
+    "min_audio_seconds": 0.4,
+    "text_field": "text",
+    "audio_field": "audio_path",
+    "speaker_field": "speaker_id"
+  },
+  "training": {
+    "train_engine": "torch_ddp",
+    "torchrun": "/home/b24zll/software/anaconda3/envs/voice/bin/torchrun",
+    "num_gpus": 1,
+    "cuda_visible_devices": "0",
+    "dist_backend": "nccl",
+    "rdzv_endpoint": "localhost:1234",
+    "job_id": 20260421,
+    "num_workers": 2,
+    "prefetch": 100,
+    "pin_memory": true,
+    "use_amp": true,
+    "deepspeed_config": "examples/libritts/cosyvoice3/conf/ds_stage2.json",
+    "deepspeed_save_states": "model+optimizer"
+  },
+  "customer_service_style": {
+    "default_speaker": "cs_001",
+    "style_prompt": "You are a helpful customer service assistant. Speak in a professional, warm and clear Mandarin Chinese tone.<|endofprompt|>",
+    "scenarios": [
+      "greeting",
+      "order_query",
+      "refund",
+      "after_sales",
+      "appointment",
+      "apology",
+      "handoff"
+    ]
+  },
+  "launcher": {
+    "train_entry": "cosyvoice/bin/train.py",
+    "extra_args": []
+  }
+}

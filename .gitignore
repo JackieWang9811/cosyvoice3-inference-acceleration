@@ -1,0 +1,35 @@
+# Model weights and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Audio files
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environment and IDE
+.env
+.venv
+venv/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
